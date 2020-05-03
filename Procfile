@@ -1,1 +1,1 @@
-web: gunicorn python script.py
+web: gunicorn script:application --preload -b 0.0.0.0:5000 
